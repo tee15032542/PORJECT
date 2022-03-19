@@ -1,0 +1,39 @@
+{
+    "type": "object",
+    "required": ["sheetIndex", "columns"],
+    "properties": {
+        "sheetIndex": { "type": "integer", "minimum": 0 },
+        "startAtRow": { "type": "integer", "minimum": 0 },
+        "columns": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "$ref": "#/$definitions/columnType" }
+        }
+    },
+    "$definitions": {
+        "columnType": {
+            "type": "object",
+            "required": ["id", "index"],
+            "additionalProperties": false,
+            "properties": {
+                "id": { "type": "string" },
+                "mappingId": {"type":"string"},
+                "index": { "type": "integer", "minimum": 0 },
+                "minLength": { "type": "integer", "minimum": 0, "default": 0 },
+                "maxLength": { "type": "integer", "minimum": 0 },
+                "autotrim": { "type": "boolean", "default": true },
+                "nullAble": { "type": "boolean", "default": false },
+                "defaultValue": { "type": "string" },
+                "required": { "type": "boolean" },
+                "type": { "enum":
+                                [
+                                    "alpha", "alphanum", "num", "date", "int", "alpha_upper",
+                                    "alphanumstrict", "nstr", "alphanum_upper", "num_code",
+                                    "charsNotAllowed", "history_first", "history_allperiod",
+                                    "serial_no", "text", "znumber", "alphanum_special", "special_text"
+                                ]
+                        }
+            }
+        }
+    }
+}

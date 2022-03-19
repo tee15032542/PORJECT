@@ -1,0 +1,41 @@
+[
+  {
+    "$schema": "../config/importJsonSchema.json",
+    "sheetIndex": 0,
+    "startAtRow": 1,
+    "columns": [
+      {
+        "id": "Country Buyer",
+        "index": 0,
+        "type": "alphanum",
+        "minLength": 2,
+        "maxLength": 2,
+        "required": "true"
+      },
+      {
+        "id": "Item ID Buyer",
+        "index": 1,
+        "type": "num_code",
+        "minLength": 7,
+        "maxLength": 7,
+        "required": "true"
+      },
+      {
+        "id": "Country Seller",
+        "index": 2,
+        "type": "alphanum",
+        "minLength": 2,
+        "maxLength": 2,
+        "required": "true"
+      },
+      {
+        "id": "Item ID Seller",
+        "index": 3,
+        "type": "num_code",
+        "minLength": 7,
+        "maxLength": 7,
+        "required": "true"
+      }
+    ]
+  }
+]
