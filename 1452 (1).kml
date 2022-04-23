@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>1452</name>
+	<gx:CascadingStyle kml:id="__managed_style_2F2DBDC91921864786F6">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1C9B91BE1E21864786F6">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0963E3B70321864786F6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1C9B91BE1E21864786F6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2F2DBDC91921864786F6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="02545BBA8521864786F6">
+		<name>รูปหลายเหลี่ยมไม่มีชื่อ</name>
+		<LookAt>
+			<longitude>101.777383276475</longitude>
+			<latitude>13.4625284916208</latitude>
+			<altitude>950.6679038460492</altitude>
+			<heading>358.8810818874205</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>4697100.604054929</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0963E3B70321864786F6</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						99.60106536358494,15.4820470630795,985.9338862250725 102.3693222237336,16.68480234358021,-605.4691009683272 100.1551428439556,17.10317604109512,-88.97271396921494 99.60106536358494,15.4820470630795,985.9338862250725 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="08023A37202186F6189C">
+		<name>4awds</name>
+		<LookAt>
+			<longitude>100.8282057161868</longitude>
+			<latitude>15.20832525834991</latitude>
+			<altitude>83.31262466564762</altitude>
+			<heading>359.99945863849</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1527773.743445277</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0963E3B70321864786F6</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						99.86177859641872,17.82308036247498,-41.69942481153263 104.0661444700381,16.64273286456824,652.5480123581857 104.6163020516505,18.85138586391509,-51.52149108303276 100.1665760799188,19.04182520731863,245.8191744288438 99.86177859641872,17.82308036247498,-41.69942481153263 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="0C6E51A91B2186F660C7">
+		<name>รูปหลายเหลี่ยมไม่มีชื่อ</name>
+		<LookAt>
+			<longitude>100.8282056252814</longitude>
+			<latitude>15.20832517085237</latitude>
+			<altitude>83.31250320252148</altitude>
+			<heading>359.9994586337773</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1527773.743445277</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0963E3B70321864786F6</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						103.1320691554018,13.66876145795549,539.5900064576675 106.579778857545,14.80062597521227,552.8150899026296 105.2409527595772,16.997591799884,394.7617612846946 102.0383903965475,15.5705432334437,595.2978796472136 103.1320691554018,13.66876145795549,539.5900064576675 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
